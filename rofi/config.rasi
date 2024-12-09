@@ -1,0 +1,38 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+/* Main Config 1080p */
+
+@import "~/.config/rofi/master-config.rasi" 
+
+/* ---- Configuration ---- */
+configuration {
+	font: "SF Pro Display Medium 13";
+}
+
+/* ---- Window ---- */
+window {
+    width:	60%;
+}
+/* ---- Listview ---- */
+listview {
+  columns: 6;
+  lines: 4;
+  fixed-height:	true;
+}
+
+/* ---- Element ---- */
+element {
+  orientation: vertical;
+  padding: 12px;
+  spacing: 6px;
+  border-radius: 20px;
+}
+
+element-icon {
+  size: 6%;
+}
+
+element-text {
+  font: "SF Pro Display Medium 13";
+  vertical-align: 0.5;
+  horizontal-align: 0.5;
+}
